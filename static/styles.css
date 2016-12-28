@@ -465,13 +465,13 @@ div.output .buttons {
  * CSS for UiT logo and such
 */ 
 .text.current, .text.next, .text.past{
-    background-image:url('/static/uit-logo-turkis-eng.png');
+    background-image:url('/static/top-left-triangle.png');
     background-repeat: no-repeat; 
     background-size: 10% 25%;
 }
 
 .first.current, .last.current, .last.next{
-    background-image:url('/static/uit-logo-turkis-tekst-eng.png');
+    background-image:url('/static/top-left.png');
     background-repeat: no-repeat; 
     background-size: 15% 35%;
 }
