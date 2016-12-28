@@ -493,8 +493,6 @@ div.second-logo{
 
 .image {
     margin-top: 2em;
-    top: 50%;
-    left: 50%;
-    margin-left: 300px; 
-    margin-right: 400px; 
+    top: auto;
+    text-align: center;
 }
