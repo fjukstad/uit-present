@@ -1,5 +1,7 @@
 # uit-present
-University of Tromsø's graphic profile to [Present](http://godoc.org/code.google.com/p/go.talks/present).
+University of Tromsø's graphic profile to Go's [present](https://godoc.org/golang.org/x/tools/present) tool.
+
+![screenshot.png](screenshot.png)
 
 # Install
 1. Install [go](http://golang.org)
