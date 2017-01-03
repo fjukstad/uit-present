@@ -6,8 +6,19 @@
   <head>
     <title>{{.Title}}</title>
     <meta charset='utf-8'>
+    <script>
+      var notesEnabled = {{.NotesEnabled}};
+    </script>
     <script src='/static/slides.js'></script>
   </head>
+
+  {{if .NotesEnabled}}
+  <script>
+    var sections = {{.Sections}};
+    var titleNotes = {{.TitleNotes}}
+  </script>
+  <script src='/static/notes.js'></script>
+  {{end}}
 
   <body style='display: none'>
 
@@ -52,10 +63,18 @@
           </div>
         {{end}}
       </article>
-  </body>
+
+    <div id="help">
+      Use the left and right arrow keys or click the left and right
+      edges of the page to navigate between slides.<br>
+      (Press 'H' or navigate to hide this message.)
+    </div>
+      
   {{if .PlayEnabled}}
   <script src='/play.js'></script>
   {{end}}
+
+  </body>
 </html>
 {{end}}
 
